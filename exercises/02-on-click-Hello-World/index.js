@@ -1,2 +1,4 @@
 // Declare your function here
-document
+document.querySelector('#hello').addEventListener('click', () => {
+    alert('I AM THE BEST');
+})
